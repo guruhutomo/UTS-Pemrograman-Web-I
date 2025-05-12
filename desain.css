@@ -1,0 +1,44 @@
+
+/* //-- yui-grids style overrides -- */
+body { font-family: Verdana; color: #444;}
+#inner {padding: 10px 80px; margin: 80px auto; background: hsl(188, 45%, 94%); border: solid #a4edea; border-width: 8px 8px 8px 8px; }
+.yui-gf { margin-bottom: 4em; padding-bottom: 4em; border-bottom: 1px solid #ccc; }
+
+/* //-- header, body, footer -- */
+#hd { margin: 4em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+.hd h1 {padding-bottom: 1em;}
+#body, #footer { margin-bottom: 2em; }
+
+/* //-- footer -- */
+#footer { padding: 1em 0 5em 0; font-size: 92%; border-top: 1em solid hsl(0, 0%, 100%); text-align: center; }
+#footer p { margin-bottom: 0; text-align: center;   }
+
+/* //-- core typography and style -- */
+#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+h1 { font-size: 250%;}
+h2 { padding-left: 5px;font-size: 152%; padding-bottom: 2em;}
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em;}
+a { color: #184598; padding-top: 2em;}
+tr.table {font-size: 144%; padding-right: 3em; line-height: 2em; padding-bottom: 1em;}
+li {font-size: 130%; padding-right: 2px; line-height: 2em; padding-bottom: 0.5em;}
+p.enlarge { text-indent: 20px;font-size: 125%; padding-right: 3em; line-height: 35px;}
+
+/* //-- section styles -- */
+
+.table { margin: 20px 8px 20px 8px; font-size: 120%; width:100%; height:200px;}
+.ul { margin: 20px 8px 20px 8px; font-size: 120%; width:100%; height:150px;}
+
+/* --// override to force 1/8th width grids -- */
+.yui-gf .yui-u{width:100%;padding-bottom: 0.1em;}
+.yui-gf div.first{width:40%;}
+
+/* --/  table  / -- */
+table, td {  border: 2px solid #444444; background-color: #ccf2ee;}
+th {font-weight: bold; text-transform: uppercase;border: 2px solid #444444;background-color: #99d7d1;}
+td, th {text-align: center;}
+
+/* --/  list  / -- */
+ul.lista{  list-style-type: square;}
+ul.listb{  list-style-type: circle;}
